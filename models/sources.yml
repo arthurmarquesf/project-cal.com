@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: snowflake_raw
+    database: CAL_COM_PROJ
+    schema: RAW
+    tables:
+      - name: RAW_CAL_BOOKINGS
+      - name: RAW_CAL_EVENT_TYPES
+      - name: RAW_CAL_USERS

@@ -1,0 +1,15 @@
+# Credenciais - NUNCA subir para o GitHub!
+profiles.yml
+
+# Arquivos gerados pelo dbt
+target/
+dbt_packages/
+logs/
+
+# Cache do Python
+__pycache__/
+*.pyc
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db

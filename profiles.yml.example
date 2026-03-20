@@ -1,0 +1,14 @@
+cal_snowflake:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: "YOUR_ACCOUNT_HERE (Ex: zb29941.us-east-1)"
+      user: "YOUR_SNOWFLAKE_USER"
+      password: "YOUR_SNOWFLAKE_PASSWORD"
+      role: "ACCOUNTADMIN"
+      database: "CAL_COM_PROJ"
+      warehouse: "COMPUTE_WH"
+      schema: "PRODUTOS_DBT"
+      threads: 4
+      client_session_keep_alive: False
