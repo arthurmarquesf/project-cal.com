@@ -1,5 +1,7 @@
 # Cal.com - BI Analytics Portfolio Project
 
+![Dashboard Preview](dashboard_preview.png)
+
 A **dbt + Snowflake** analytics project modeled after Cal.com's open-source schema to demonstrate data engineering and BI skills.
 
 ## 🎯 Context & Purpose
